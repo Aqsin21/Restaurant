@@ -1,0 +1,39 @@
+﻿@{
+    Layout = null;
+}
+@Html.AntiForgeryToken()
+@model RegisterViewModel 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="~/assets/css/login.css" />
+</head>
+<body>
+
+    <div class="main">
+        <div class="login">
+            <form method="post">
+                <label for="chk" aria-hidden="true">Register</label>
+                <input asp-for="UserName"  placeholder="UserName" required="">
+                <span asp-validation-for="UserName"></span>
+                <input asp-for="FullName"  placeholder="FullName" required="">
+                <span asp-validation-for="FullName"></span>
+                <input asp-for="Email" placeholder="Email" required="">
+                <span asp-validation-for="Email"></span>
+                <input asp-for="Password" placeholder="Password" required="">
+                <span asp-validation-for="Password"></span>
+                <input asp-for="ConfirmPassword"  placeholder="Confirm Password" required="">
+                <span asp-validation-for="ConfirmPassword"></span>
+                <div asp-validation-summary="ModelOnly"></div>
+                
+                <button>Sign up</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
+
+

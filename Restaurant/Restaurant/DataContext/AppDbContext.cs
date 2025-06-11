@@ -1,14 +1,19 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Restaurant.DataContext.Entities;
 
 namespace Restaurant.DataContext
 {
-    public class AppDbContext :DbContext
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
-        public AppDbContext(DbContextOptions options) : base(options)
+      public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
-        
+
+        protected AppDbContext()
+        {
+        }
+
         public DbSet<Category> Categories { get; set; }
         public DbSet<MenuItem> MenuItems { get; set; }
         public DbSet<OfflineOrder> Orders { get; set; }
