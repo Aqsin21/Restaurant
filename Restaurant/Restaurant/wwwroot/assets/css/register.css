@@ -6,9 +6,13 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
-    background: linear-gradient(to bottom, #000000, #1c1c1c, #2e2e2e); /* Siyah geçi?li arka plan */
+    background: linear-gradient(to bottom, #000000, #1c1c1c, #2e2e2e); 
 }
-
+span.field-validation-error {
+    color: #ff9900; 
+    font-weight: bold;
+    font-size: 0.9rem;
+}
 .main {
     width: 350px;
     height: 500px;

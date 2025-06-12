@@ -21,9 +21,9 @@
 
     <!-- Stylesheets
     ============================================= -->
-    <link href="assets/css/external.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="~/assets/css/external.css" rel="stylesheet">
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/css/style.css" rel="stylesheet">
 
     <!-- RS5.0 Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
@@ -182,7 +182,7 @@
     <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">About</a>
     <ul class="dropdown-menu">
         <li>
-            <a href="page-about.html">our story</a>
+            <a asp-controller="Home" asp-action="About">our story</a>
         </li>
         <li>
             <a href="page-chefs.html">our chefs</a>
