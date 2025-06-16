@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\datacontext\\entities\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\datacontext\\entities\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\wwwroot\\assets\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\wwwroot\\assets\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\models\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\models\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\datacontext\\entities\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\datacontext\\entities\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +63,12 @@
       "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\models\\basketitemcookiemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\models\\basketitemcookiemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\datacontext\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,10 +80,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BEB7E53-A36A-CC24-DF57-B66E0DFE47FD}|..\\Mailing\\Mailing.csproj|c:\\users\\hp\\desktop\\restaurant\\mailing\\mailing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -94,10 +110,6 @@
       "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\models\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\models\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\datacontext\\entities\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\datacontext\\entities\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -109,7 +121,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -121,7 +133,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "register.css",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\register.css",
+              "RelativeDocumentMoniker": "Restaurant\\wwwroot\\assets\\css\\register.css",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\wwwroot\\assets\\css\\register.css",
+              "RelativeToolTip": "Restaurant\\wwwroot\\assets\\css\\register.css",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-16T13:16:57.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Models\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Restaurant\\Models\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Models\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "Restaurant\\Models\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T13:13:03.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Restaurant\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Account\\ChangePassword.cshtml*",
+              "RelativeToolTip": "Restaurant\\Views\\Account\\ChangePassword.cshtml*",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T13:11:42.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Restaurant\\Views\\Home\\Index.cshtml",
@@ -134,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Restaurant\\Controllers\\HomeController.cs",
@@ -147,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Restaurant\\Models\\LoginViewModel.cs",
@@ -160,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "HomeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Models\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "Restaurant\\Models\\HomeViewModel.cs",
@@ -173,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "DataInitializer.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\DataContext\\DataInitializer.cs",
               "RelativeDocumentMoniker": "Restaurant\\DataContext\\DataInitializer.cs",
@@ -186,8 +237,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Restaurant",
+              "DocumentIndex": 18,
+              "Title": "Restaurant.csproj",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Restaurant.csproj",
               "RelativeDocumentMoniker": "Restaurant\\Restaurant.csproj",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Restaurant.csproj",
@@ -199,8 +250,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Mailing",
+              "DocumentIndex": 19,
+              "Title": "Mailing.csproj",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Mailing\\Mailing.csproj",
               "RelativeDocumentMoniker": "..\\Mailing\\Mailing.csproj",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Mailing\\Mailing.csproj",
@@ -212,20 +263,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Restaurant\\Views\\Account\\Register.cshtml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "Restaurant\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-16T11:25:00.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Restaurant\\Views\\Account\\Login.cshtml",
@@ -233,7 +284,8 @@
               "RelativeToolTip": "Restaurant\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T11:24:36.141Z"
+              "WhenOpened": "2025-06-16T11:24:36.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -250,20 +302,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Program.cs",
               "RelativeDocumentMoniker": "Restaurant\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Program.cs",
               "RelativeToolTip": "Restaurant\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T11:21:27.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "BasketViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\ViewComponents\\BasketViewComponent.cs",
               "RelativeDocumentMoniker": "Restaurant\\ViewComponents\\BasketViewComponent.cs",
@@ -271,11 +323,12 @@
               "RelativeToolTip": "Restaurant\\ViewComponents\\BasketViewComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T11:18:01.319Z"
+              "WhenOpened": "2025-06-16T11:18:01.319Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "HeaderViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\ViewComponents\\HeaderViewComponent.cs",
               "RelativeDocumentMoniker": "Restaurant\\ViewComponents\\HeaderViewComponent.cs",
@@ -283,11 +336,12 @@
               "RelativeToolTip": "Restaurant\\ViewComponents\\HeaderViewComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T11:17:54.534Z"
+              "WhenOpened": "2025-06-16T11:17:54.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "SuperAdmin.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Data\\SuperAdmin.cs",
               "RelativeDocumentMoniker": "Restaurant\\Data\\SuperAdmin.cs",
@@ -295,11 +349,12 @@
               "RelativeToolTip": "Restaurant\\Data\\SuperAdmin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T11:15:14.647Z"
+              "WhenOpened": "2025-06-16T11:15:14.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "RoleConstants.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Data\\RoleConstants.cs",
               "RelativeDocumentMoniker": "Restaurant\\Data\\RoleConstants.cs",
@@ -307,24 +362,25 @@
               "RelativeToolTip": "Restaurant\\Data\\RoleConstants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T11:15:09.098Z"
+              "WhenOpened": "2025-06-16T11:15:09.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "MenuItem.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\DataContext\\Entities\\MenuItem.cs",
               "RelativeDocumentMoniker": "Restaurant\\DataContext\\Entities\\MenuItem.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\DataContext\\Entities\\MenuItem.cs",
               "RelativeToolTip": "Restaurant\\DataContext\\Entities\\MenuItem.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA9wA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA7wA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T11:10:52.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\About\\Index.cshtml",
               "RelativeDocumentMoniker": "Restaurant\\Views\\About\\Index.cshtml",
@@ -332,11 +388,12 @@
               "RelativeToolTip": "Restaurant\\Views\\About\\Index.cshtml",
               "ViewState": "AgIAAOYBAAAAAAAAAAAYwAYCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T10:58:37.166Z"
+              "WhenOpened": "2025-06-16T10:58:37.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "Restaurant\\Controllers\\AboutController.cs",
@@ -355,14 +412,14 @@
               "RelativeDocumentMoniker": "Restaurant\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Restaurant\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAWwGMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAWwGsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T10:54:33.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 5,
               "Title": "CartViewModel.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Models\\CartViewModel.cs",
               "RelativeDocumentMoniker": "Restaurant\\Models\\CartViewModel.cs",
@@ -370,11 +427,12 @@
               "RelativeToolTip": "Restaurant\\Models\\CartViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T10:04:05.156Z"
+              "WhenOpened": "2025-06-16T10:04:05.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "BasketItemCookieModel.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Models\\BasketItemCookieModel.cs",
               "RelativeDocumentMoniker": "Restaurant\\Models\\BasketItemCookieModel.cs",
@@ -387,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "BasketController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Controllers\\BasketController.cs",
               "RelativeDocumentMoniker": "Restaurant\\Controllers\\BasketController.cs",
@@ -400,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "BasketItem.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\DataContext\\Entities\\BasketItem.cs",
               "RelativeDocumentMoniker": "Restaurant\\DataContext\\Entities\\BasketItem.cs",
@@ -408,24 +466,25 @@
               "RelativeToolTip": "Restaurant\\DataContext\\Entities\\BasketItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:52:54.492Z"
+              "WhenOpened": "2025-06-16T09:52:54.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Restaurant\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Restaurant\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAWwJ8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAWwKkAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-16T09:51:12.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Menu\\Index.cshtml",
               "RelativeDocumentMoniker": "Restaurant\\Views\\Menu\\Index.cshtml",
@@ -433,7 +492,8 @@
               "RelativeToolTip": "Restaurant\\Views\\Menu\\Index.cshtml",
               "ViewState": "AgIAALMBAAAAAAAAAAAmwNUBAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T09:47:36.811Z"
+              "WhenOpened": "2025-06-16T09:47:36.811Z",
+              "EditorCaption": ""
             }
           ]
         },

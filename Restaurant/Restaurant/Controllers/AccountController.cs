@@ -105,7 +105,7 @@ namespace Restaurant.Controllers
             return View();
         }
 
-        [Authorize]
+       
         public IActionResult ChangePassword()
         {
             return View();

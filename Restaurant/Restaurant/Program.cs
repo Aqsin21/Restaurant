@@ -40,6 +40,14 @@ namespace Restaurant
 
             builder.Services.AddTransient<IMailService, MailKitMailService>();
             builder.Services.Configure<SuperAdmin>(builder.Configuration.GetSection("SuperAdmin"));
+            builder.Services.AddAuthentication("Cookies")
+    .AddCookie("Cookies", options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
+    });
+
+            builder.Services.AddAuthorization();
             var app = builder.Build();
 
 
