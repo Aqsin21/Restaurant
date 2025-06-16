@@ -2,6 +2,7 @@ using Mailing;
 using Mailing.MailKitImplementations;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Restaurant.Areas.Admin.Data;
 using Restaurant.Data;
 using Restaurant.DataContext;
 using Restaurant.DataContext.Entities;
@@ -46,6 +47,8 @@ namespace Restaurant
         options.LoginPath = "/Account/Login";
         options.LogoutPath = "/Account/Logout";
     });
+            FilePathConstants.MenuItemPath = Path.Combine(builder.Environment.WebRootPath, "images", "menuItem");
+
 
             builder.Services.AddAuthorization();
             var app = builder.Build();

@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Restaurant.Areas.Admin.Data;
 using Restaurant.DataContext;
 using Restaurant.DataContext.Entities;
+using System.Threading.Tasks;
+using Restaurant.Areas.Admin.Extentions;
 
 namespace Restaurant.Areas.Admin.Controllers
 {
@@ -37,20 +39,21 @@ namespace Restaurant.Areas.Admin.Controllers
 
 
         [HttpPost]
-        public IActionResult Create(MenuItemCreateViewModel model)
+        public async Task<IActionResult> Create(MenuItemCreateViewModel model)
         {
             if (!ModelState.IsValid)
             {
                 model.Categories = _dbContext.Categories.ToList();
                 return View(model);
             }
+            var uniqieImgFileName = await model.Img.GenerateFile(FilePathConstants.MenuItemPath);
 
             var menuItem = new MenuItem
             {
                 Name = model.Name,
                 Description = model.Description,
                 Price = model.Price,
-                ImageUrl = model.ImageUrl,
+                ImageUrl = uniqieImgFileName,
                 IsAvaliable = model.IsAvailable,
                 CategoryId = model.CategoryId
             };
