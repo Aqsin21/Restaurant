@@ -43,6 +43,7 @@ namespace Restaurant
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseWebSockets();
 
             app.UseRouting();
 

@@ -489,7 +489,6 @@ wwwroot\assets\images\team\8.jpg
 wwwroot\assets\images\team\thumb\1.jpg
 wwwroot\assets\images\team\thumb\2.jpg
 wwwroot\assets\images\team\thumb\3.jpg
-wwwroot\assets\images\test.jpg
 wwwroot\assets\images\testimonial\1.png
 wwwroot\assets\images\testimonial\2.png
 wwwroot\assets\images\testimonial\3.png

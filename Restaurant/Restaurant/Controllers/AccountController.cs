@@ -18,7 +18,7 @@ namespace Restaurant.Controllers
             _signInManager = signInManager;
         }
 
-        public IActionResult Register()
+        public IActionResult Register() 
         {
             return View();
         }
@@ -72,7 +72,7 @@ namespace Restaurant.Controllers
             if (!result.Succeeded)
             {
                 
-                    ModelState.AddModelError("", "Username or PassWord is incorrect");
+                    ModelState.AddModelError("", "Username or Password is incorrect");
                 
             }
 
