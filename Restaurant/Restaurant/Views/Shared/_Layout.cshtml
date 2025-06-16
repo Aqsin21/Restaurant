@@ -222,7 +222,7 @@
 <!-- li end -->
 
 <li>
-    <a class="menu-item" href="page-book-table.html">book a table</a>
+    <a class="menu-item" asp-controller="Reserve" asp-action="Create">book a table</a>
 </li>
 
 <!-- Features Menu-->
@@ -1033,6 +1033,7 @@
 	}
 	// ]]>
 </script>
+    @RenderSection("Scripts", required: false)
 </body>
 
 

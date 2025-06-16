@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|c:\\users\\hp\\desktop\\restaurant\\restaurant\\restaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A291EC99-4525-4ABB-A5BB-C95F8195EE4B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,76 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Menu\\Index.cshtml",
-              "RelativeDocumentMoniker": "Restaurant\\Views\\Menu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Menu\\Index.cshtml",
-              "RelativeToolTip": "Restaurant\\Views\\Menu\\Index.cshtml",
-              "ViewState": "AgIAAF0IAAAAAAAAAAAYwO0IAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T05:16:52.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "Restaurant\\Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "Restaurant\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T05:13:38.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Program.cs",
-              "RelativeDocumentMoniker": "Restaurant\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Program.cs",
-              "RelativeToolTip": "Restaurant\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwC0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T05:09:40.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Restaurant\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Restaurant\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:50:24.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Restaurant\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Restaurant\\Restaurant\\Restaurant\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Restaurant\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T04:45:58.321Z",
-              "EditorCaption": ""
             }
           ]
         },
