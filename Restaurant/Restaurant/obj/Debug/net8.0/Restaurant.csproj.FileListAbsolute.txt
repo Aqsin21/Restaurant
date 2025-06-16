@@ -257,3 +257,8 @@ C:\Users\HP\Desktop\Restaurant\Restaurant\Restaurant\obj\Debug\net8.0\rpswa.dswa
 C:\Users\HP\Desktop\Restaurant\Restaurant\Restaurant\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\HP\Desktop\Restaurant\Restaurant\Restaurant\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\HP\Desktop\Restaurant\Restaurant\Restaurant\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\HP\Desktop\Restaurant\Restaurant\Restaurant\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\HP\Desktop\Restaurant\Restaurant\Restaurant\bin\Debug\net8.0\MailKit.dll
+C:\Users\HP\Desktop\Restaurant\Restaurant\Restaurant\bin\Debug\net8.0\MimeKit.dll
+C:\Users\HP\Desktop\Restaurant\Restaurant\Restaurant\bin\Debug\net8.0\Mailing.dll
+C:\Users\HP\Desktop\Restaurant\Restaurant\Restaurant\bin\Debug\net8.0\Mailing.pdb

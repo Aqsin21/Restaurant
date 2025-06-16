@@ -1,7 +1,11 @@
+using Mailing;
+using Mailing.MailKitImplementations;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Restaurant.Data;
 using Restaurant.DataContext;
 using Restaurant.DataContext.Entities;
+using Restourant.DataContext;
 
 namespace Restaurant
 {
@@ -31,7 +35,13 @@ namespace Restaurant
             {
                 option.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
             });
+
+            builder.Services.AddScoped<DataInitializer>();
+
+            builder.Services.AddTransient<IMailService, MailKitMailService>();
+            builder.Services.Configure<SuperAdmin>(builder.Configuration.GetSection("SuperAdmin"));
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
