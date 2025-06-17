@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MimeKit.Encodings;
 using Newtonsoft.Json;
 using Restaurant.DataContext;
+using Restaurant.DataContext.Entities;
 using Restaurant.Models;
 
 
@@ -20,149 +22,53 @@ namespace Restaurant.Controllers
         {
             return View();
         }
+        private List<BasketItem> GetBasket()
+        {
+            var basket = Request.Cookies[BasketCookieKey];
+            if (string.IsNullOrEmpty(basket))
+            {
+                return new List<BasketItem>();
+            }
+            var menuitems = JsonConvert.DeserializeObject<List<BasketItem>>(basket);
+            if (menuitems == null)
+            {
+                return new List<BasketItem>();
 
+            }
+            return menuitems;
+        }
         public IActionResult AddToBasket(int id)
         {
-            var product = _dbContext.MenuItems.Find(id);
-
-            if (product == null)
+            var menuitem = _dbContext.MenuItems.Find(id);
+                if (menuitem == null)
             {
                 return BadRequest();
             }
-
             var basket = GetBasket();
-
-            var exitBasketItem = basket.Find(x => x.ProductId == id);
-
-            if (exitBasketItem == null)
+            var existing = basket.FirstOrDefault(x => x.MenuItemId == id);
+            if (existing != null)
             {
-                basket.Add(new BasketItemCookieModel { ProductId = id, Quantity = 1 });
-
+                existing.Quantity += 1;
             }
             else
             {
-                exitBasketItem.Quantity++;
+                basket.Add(new BasketItem
+                {
+                    MenuItemId = id,
+                    Price = menuitem.Price,
+                    Quantity = 1
+                });
             }
-
-            var basketJson = JsonConvert.SerializeObject(basket);
-
-            Response.Cookies.Append(BasketCookieKey, basketJson, new CookieOptions
-            {
+            var basketJson =JsonConvert.SerializeObject(basket);
+            Response.Cookies.Append(BasketCookieKey, basketJson, new CookieOptions 
+            { 
                 Expires = DateTimeOffset.Now.AddHours(1)
             });
 
-            return RedirectToAction("Index", "Home");
+
+            return RedirectToAction("Index", "Menu");
         }
 
-        private List<BasketItemCookieModel> GetBasket()
-        {
-            var basket = Request.Cookies[BasketCookieKey];
-
-            if (string.IsNullOrEmpty(basket))
-            {
-                return new List<BasketItemCookieModel>();
-            }
-
-            var basketItems = JsonConvert.DeserializeObject<List<BasketItemCookieModel>>(basket);
-
-            if (basketItems == null)
-            {
-                return new List<BasketItemCookieModel>();
-            }
-
-            return basketItems;
-        }
-
-        public async Task<IActionResult> Cart()
-        {
-            var basket = Request.Cookies["Basket"];
-            if (string.IsNullOrEmpty(basket))
-            {
-                return Content("0");
-            }
-
-            var basketItems = JsonConvert.DeserializeObject<List<BasketItemCookieModel>>(basket);
-
-            var cart = new CartViewModel();
-            var cartItemList = new List<CartItemViewModel>();
-
-            foreach (var item in basketItems ?? [])
-            {
-                var product = await _dbContext.MenuItems.FindAsync(item.ProductId);
-
-                if (product == null) continue;
-
-                cartItemList.Add(new CartItemViewModel
-                {
-                    ProductId = product.Id,
-                    Name = product.Name,
-                    Description = product.Name,
-                    Price = product.Price,
-                    Quantity = item.Quantity,
-                    ImageUrl = product.ImageUrl
-                });
-            }
-
-            cart.Items = cartItemList;
-            cart.Quantity = cartItemList.Sum(x => x.Quantity);
-            cart.Total = cartItemList.Sum(x => x.Quantity * x.Price);
-
-            return View(cart);
-        }
-
-        [HttpPost]
-        public IActionResult UpdateBasket([FromBody] UpdateModel updateModel)
-        {
-            var basket = GetBasket();
-            var basketItem = basket.Find(x => x.ProductId == updateModel.ProductId);
-            if (basketItem != null)
-            {
-                if (updateModel.Quantity <= 0)
-                {
-                    basket.Remove(basketItem);
-                }
-                else
-                {
-                    basketItem.Quantity = updateModel.Quantity;
-                }
-            }
-            var basketJson = JsonConvert.SerializeObject(basket);
-            Response.Cookies.Append(BasketCookieKey, basketJson, new CookieOptions
-            {
-                Expires = DateTimeOffset.Now.AddMonths(1)
-            });
-
-            var cart = new CartViewModel();
-            var cartItemList = new List<CartItemViewModel>();
-
-            foreach (var item in basket ?? [])
-            {
-                var product = _dbContext.MenuItems.Find(item.ProductId);
-
-                if (product == null) continue;
-
-                cartItemList.Add(new CartItemViewModel
-                {
-                    ProductId = product.Id,
-                    Name = product.Name,
-                    Description = product.Name,
-                    Price = product.Price,
-                    Quantity = item.Quantity,
-                    ImageUrl = product.ImageUrl
-                });
-            }
-
-            cart.Items = cartItemList;
-            cart.Quantity = cartItemList.Sum(x => x.Quantity);
-            cart.Total = cartItemList.Sum(x => x.Quantity * x.Price);
-
-            return PartialView("_CartPartialView", cart);
-        }
-    }
-
-    public class UpdateModel
-    {
-        public int ProductId { get; set; }
-        public int Quantity { get; set; }
+      
     }
 }

@@ -730,37 +730,11 @@
     <div class="module-icon cart-icon">
         <i class="fa fa-shopping-cart"></i>
         <span class="title">shop cart</span>
-        <label class="module-label">2</label>
+
     </div>
     <div class="module-content module-box cart-box">
-        <div class="cart-overview">
-            <ul class="list-unstyled">
-                <li>
-                    <img class="img-responsive" src="assets/images/shop/thumb/6.jpg" alt="product" />
-                    <div class="product-meta">
-                        <h5 class="product-title">Red Tape Shoes</h5>
-                        <p class="product-price">1 x $ 34.00</p>
-                    </div>
-                    <a class="cart-cancel" href="#">cancel</a>
-                </li>
-                <li>
-                    <img class="img-responsive" src="assets/images/shop/thumb/7.jpg" alt="product" />
-                    <div class="product-meta">
-                        <h5 class="product-title">Brave Sweater</h5>
-                        <p class="product-price">1 x $ 32.00</p>
-                    </div>
-                    <a class="cart-cancel" href="#">cancel</a>
-                </li>
-            </ul>
-        </div>
-        <div class="cart-total">
-            <div class="total-desc">
-                Subtotal:
-            </div>
-            <div class="total-price">
-                $73.00
-            </div>
-        </div>
+      
+        @await Component.InvokeAsync("Basket")
         <div class="clearfix">
         </div>
         <div class="cart--control">

@@ -82,11 +82,18 @@
                                                 <div class="row dish-panel">
                                                     <div class="col-xs-12 col-sm-6 col-md-6">
                                                         <div class="dish--content">
-
                                                             <span class="dish--price">$@item.Price</span>
                                                             <h3 class="dish--title">@item.Name</h3>
                                                             <div class="divider--shape-4"></div>
                                                             <p class="dish--desc">@item.Description</p>
+
+                                                            <!-- Add to Basket Button -->
+                                                            <form asp-controller="Basket" asp-action="AddToBasket" method="post">
+                                                                <input type="hidden" name="id" value="@item.Id" />
+                                                                <button type="submit" class="btn btn-sm btn-success" style="margin-top:10px;">
+                                                                    <i class="fa fa-shopping-cart"></i> Add to Basket
+                                                                </button>
+                                                            </form>
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-12 col-sm-6 col-md-6">
@@ -152,19 +159,24 @@
                                 <div class="row">
                                     <div class="dishes-wrapper">
                                         <!-- Dish #1 -->
-                                    
-
                                         @foreach (var item in Model)
                                         {
                                             <div class="col-xs-12 col-sm-12 col-md-6">
                                                 <div class="row dish-panel">
                                                     <div class="col-xs-12 col-sm-6 col-md-6">
                                                         <div class="dish--content">
-                                                           
                                                             <span class="dish--price">$@item.Price</span>
                                                             <h3 class="dish--title">@item.Name</h3>
                                                             <div class="divider--shape-4"></div>
                                                             <p class="dish--desc">@item.Description</p>
+
+                                                            <!-- Add to Basket Button -->
+                                                            <form asp-controller="Basket" asp-action="AddToBasket" method="post">
+                                                                <input type="hidden" name="id" value="@item.Id" />
+                                                                <button type="submit" class="btn btn-sm btn-success" style="margin-top:10px;">
+                                                                    <i class="fa fa-shopping-cart"></i> Add to Basket
+                                                                </button>
+                                                            </form>
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-12 col-sm-6 col-md-6">
@@ -199,11 +211,6 @@
                                                                                             <p>@item.Description</p>
                                                                                         </div>
                                                                                     </div>
-                                                                                    <form asp-controller="Basket" asp-action="AddToBasket" method="post">
-                                                                                        <input type="hidden" name="menuItemId" value="@item.Id" />
-                                                                                        <button type="submit" class="btn btn-success mt-2">Add to Basket</button>
-                                                                                    </form>
-
                                                                                 </div> <!-- .row end -->
                                                                             </div>
                                                                         </div> <!-- .modal-content -->
@@ -234,19 +241,24 @@
                                 <div class="row">
                                     <div class="dishes-wrapper">
                                         <!-- Dish #1 -->
-                                      
-
                                         @foreach (var item in Model)
                                         {
                                             <div class="col-xs-12 col-sm-12 col-md-6">
                                                 <div class="row dish-panel">
                                                     <div class="col-xs-12 col-sm-6 col-md-6">
                                                         <div class="dish--content">
-                                                           
                                                             <span class="dish--price">$@item.Price</span>
                                                             <h3 class="dish--title">@item.Name</h3>
                                                             <div class="divider--shape-4"></div>
                                                             <p class="dish--desc">@item.Description</p>
+
+                                                            <!-- Add to Basket Button -->
+                                                            <form asp-controller="Basket" asp-action="AddToBasket" method="post">
+                                                                <input type="hidden" name="id" value="@item.Id" />
+                                                                <button type="submit" class="btn btn-sm btn-success" style="margin-top:10px;">
+                                                                    <i class="fa fa-shopping-cart"></i> Add to Basket
+                                                                </button>
+                                                            </form>
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-12 col-sm-6 col-md-6">
@@ -311,19 +323,24 @@
                                 <div class="row">
                                     <div class="dishes-wrapper">
                                         <!-- Dish #1 -->
-                                         
-
                                         @foreach (var item in Model)
                                         {
                                             <div class="col-xs-12 col-sm-12 col-md-6">
                                                 <div class="row dish-panel">
                                                     <div class="col-xs-12 col-sm-6 col-md-6">
                                                         <div class="dish--content">
-                                                           
                                                             <span class="dish--price">$@item.Price</span>
                                                             <h3 class="dish--title">@item.Name</h3>
                                                             <div class="divider--shape-4"></div>
                                                             <p class="dish--desc">@item.Description</p>
+
+                                                            <!-- Add to Basket Button -->
+                                                            <form asp-controller="Basket" asp-action="AddToBasket" asp-route-id="@item.Id" method="post">
+                                                                <input type="hidden" name="id" value="@item.Id" />
+                                                                <button type="submit" class="btn btn-sm btn-success" style="margin-top:10px;">
+                                                                    <i class="fa fa-shopping-cart"></i> Add to Basket
+                                                                </button>
+                                                            </form>
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-12 col-sm-6 col-md-6">
@@ -389,19 +406,24 @@
                                 <div class="row">
                                     <div class="dishes-wrapper">
                                         <!-- Dish #1 -->
-                                    
-
                                         @foreach (var item in Model)
                                         {
                                             <div class="col-xs-12 col-sm-12 col-md-6">
                                                 <div class="row dish-panel">
                                                     <div class="col-xs-12 col-sm-6 col-md-6">
                                                         <div class="dish--content">
-                                                           
                                                             <span class="dish--price">$@item.Price</span>
                                                             <h3 class="dish--title">@item.Name</h3>
                                                             <div class="divider--shape-4"></div>
                                                             <p class="dish--desc">@item.Description</p>
+
+                                                            <!-- Add to Basket Button -->
+                                                            <form asp-controller="Basket" asp-action="AddToBasket" method="post">
+                                                                <input type="hidden" name="id" value="@item.Id" />
+                                                                <button type="submit" class="btn btn-sm btn-success" style="margin-top:10px;">
+                                                                    <i class="fa fa-shopping-cart"></i> Add to Basket
+                                                                </button>
+                                                            </form>
                                                         </div>
                                                     </div>
                                                     <div class="col-xs-12 col-sm-6 col-md-6">

@@ -1,0 +1,29 @@
+﻿@using Restaurant.DataContext.Entities
+@{
+    CartViewModel cartViewModel = Model;
+}
+<label class="module-label">@cartViewModel.Quantity</label>
+<div class="cart-overview">
+    <ul class="list-unstyled">
+        @foreach (var item in cartViewModel.Items)
+        {
+            <li>
+                <img class="img-responsive" src="@item.ImageUrl" alt="product" />
+                <div class="product-meta">
+                    <h5 class="product-title">@item.Name</h5>
+                    <p class="product-price">x @item.Quantity</p> <!-- doğru bilgi -->
+                </div>
+                <a class="cart-cancel" href="#">cancel</a>
+            </li>
+        }
+      
+    </ul>
+</div>
+<div class="cart-total">
+    <div class="total-desc">
+        Subtotal:
+    </div>
+    <div class="total-price">
+        @cartViewModel.Total
+    </div>
+</div>
