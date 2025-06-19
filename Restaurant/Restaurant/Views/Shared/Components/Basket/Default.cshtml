@@ -8,7 +8,7 @@
         @foreach (var item in cartViewModel.Items)
         {
             <li>
-                <img class="img-responsive" src="@item.ImageUrl" alt="product" />
+                <img src="~/assets/images/menu/dish/@item.ImageUrl" alt="product" />
                 <div class="product-meta">
                     <h5 class="product-title">@item.Name</h5>
                     <p class="product-price">x @item.Quantity</p> <!-- doğru bilgi -->
